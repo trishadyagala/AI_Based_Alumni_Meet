@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Explore Alumni | AI-Based Alumni Meet</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <h1>AI-Based Alumni Meet</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="explore.html" class="active">Explore</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<h2 class="explore-header">Explore Alumni</h2>
+
+<div class="explore-controls">
+  <input type="text" id="search-input" placeholder="Search by name..." />
+  <select id="department-filter">
+    <option value="all">All Departments</option>
+    <option value="AI Engineer">AI Engineer</option>
+    <option value="Software Developer">Software Developer</option>
+    <option value="Data Analyst">Data Analyst</option>
+    <option value="Machine Learning Specialist">Machine Learning Specialist</option>
+  </select>
+</div>
+
+<div class="alumni-grid" id="alumni-grid">
+  <!-- cards injected by js/explore.js -->
+</div>
+
+<footer class="site-footer">
+  <p>&copy; 2025 AI-Based Alumni Meet. All Rights Reserved.</p>
+</footer>
+<script src="js/explore.js"></script>
+</body>
+</html>
